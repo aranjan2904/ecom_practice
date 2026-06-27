@@ -64,7 +64,7 @@ public class OrderDAOImpl implements OrderDAO {
 	            orderId = rs.getInt(1);
 	        }
 
-	        // ================= WRITE THE NEW CODE HERE =================
+	        //insert into order items
 
 	        String itemQuery =
 	                "INSERT INTO order_item(order_id, product_id, quantity, price) VALUES(?,?,?,?)";

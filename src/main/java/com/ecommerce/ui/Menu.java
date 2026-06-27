@@ -262,15 +262,14 @@ public class Menu {
 			loggedInCustomer = customer;
 
 			System.out.println("\nWelcome " + customer.getName() + " 😊");
+			System.out.println("Logged In Customer ID : " + loggedInCustomer.getId());
 
 		} else {
 
 			System.out.println("\nInvalid Email or Password.");
-
+			
 		}
 		
-		System.out.println("Logged In Customer ID : " + loggedInCustomer.getId());
-
 	}
 
 //===================== ADD TO CART ===============================
